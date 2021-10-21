@@ -1,0 +1,42 @@
+{
+  "revision_id": "6440f337766f55b1ce1afbd0939d5d6c0d044ed7bfad4bfd0d9dd8b008e771f4",
+  "name": "learn_chef",
+  "run_list": [
+    "recipe[learn_chef::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "learn_chef": {
+      "version": "0.1.0",
+      "identifier": "faf7d318cc7efe0e6b7eb02ed09eb817fdc87e28",
+      "dotted_decimal_identifier": "70641230203879166.4058841539858590.202413181533736",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": null,
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "learn_chef",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "learn_chef (0.1.0)": [
+
+      ]
+    }
+  }
+}
